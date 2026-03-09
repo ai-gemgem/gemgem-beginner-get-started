@@ -1,4 +1,4 @@
-import { BookIcon, type LucideIcon, WebhookIcon } from 'lucide-react'
+import { BookIcon, type LucideIcon } from 'lucide-react'
 import type { LinkProps } from 'next/link'
 import Link from 'next/link'
 import type { ReactElement, ReactNode } from 'react'
@@ -20,12 +20,14 @@ export default function DocsPage(): ReactElement {
           title='Documentation'
         />
 
+        {/* TODO: API Reference 카드 - 실제 API 구현 후 복원
         <DocumentationItem
           description="Get started with Fumadocs's API reference feature."
           href='/docs/api-reference'
           icon={{ icon: WebhookIcon, id: 'api-reference' }}
           title='API Reference'
         />
+        */}
       </div>
     </main>
   )

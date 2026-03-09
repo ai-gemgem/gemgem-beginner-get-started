@@ -1,0 +1,4 @@
+{
+  "title": "머신 셋업",
+  "pages": ["index", "terminal", "package-manager", "claude-code"]
+}

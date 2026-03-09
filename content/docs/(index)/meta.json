@@ -1,18 +1,21 @@
 {
   "title": "Documentation",
-  "description": "Set up your documentation",
+  "description": "AI로 제품 만들기, 처음부터 끝까지",
   "icon": "Book",
   "root": true,
   "pages": [
-    "---Getting Started---",
+    "---시작하기---",
     "index",
     "quickstart",
-    "---Essentials---",
-    "...essentials",
-    "---Features---",
-    "...features",
-    "---Guides---",
-    "...guides",
-    "..."
+    "---머신 셋업---",
+    "...01-machine-setup",
+    "---인프라 셋업---",
+    "...02-infra-setup",
+    "---개발/배포---",
+    "...03-dev-deploy",
+    "---제품 만들기---",
+    "...04-product",
+    "---운영---",
+    "...05-operations"
   ]
 }
